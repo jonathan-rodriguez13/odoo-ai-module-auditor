@@ -1,2 +1,8 @@
-# odoo-ai-module-auditor
-CLI tool using LLMs to audit Odoo modules for security and PEP8 compliance.
+# Odoo AI Module Auditor (CLI Tool)
+
+Herramienta de línea de comandos en Python diseñada para escanear módulos de Odoo ERP y verificar estructura, convenciones de seguridad y reglas de acceso.
+
+## Uso Rápido
+```bash
+pip install -r requirements.txt
+python auditor.py --path ./mi_modulo_odoo
